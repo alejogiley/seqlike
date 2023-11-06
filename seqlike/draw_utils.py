@@ -412,5 +412,5 @@ def view_alignment(
     p1.yaxis.major_tick_line_width = 0
 
     p = bk.layouts.gridplot([[p], [p1]], toolbar_location="below")
-    bk.plotting.show(p)
+    # bk.plotting.show(p)
     return p
